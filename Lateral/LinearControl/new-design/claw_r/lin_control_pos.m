@@ -130,7 +130,7 @@ xlabel('t [sec]');
 
 figure(5);
 subplot(211);
-plot(t, y, t, yc); grid on
+plot(t, y, 'b', t, yc,'r--'); grid on
 ylabel('y, yc [m]');
 subplot(212);
 plot(t, delta*180/pi); grid on
